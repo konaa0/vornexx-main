@@ -8,7 +8,7 @@
 	<Socials />
 	<h6>
 		Forked from xafn's repo, check it out <button onclick="window.location='https://github.com/xafn';">here</button>! &#60;3
-		<Tooltip tip="you're here"><span>V2</span></Tooltip>
+		<Tooltip tip="you're here"><span>V1</span></Tooltip>
 		<Tooltip tip="doo doo 💩">
 
 		</Tooltip>

@@ -32,12 +32,19 @@
 					<span>open-source</span>
 				</a>
 			</Tooltip>
-			, if you wanna check out my unorganized spotify playlist click here
+			, if you wanna check out my unorganized spotify playlist
 			<Tooltip tip="🎵">
 				<a href="https://spotify.vornexx.is-a.dev" target="_blank" rel="noreferrer">
 					<span>click here</span>
 				</a>
 			</Tooltip>
+			, aside from this I also upload random .mp4 files now and then
+			<Tooltip tip="🎵">
+				<a href="https://cdn-vornexx.vercel.app" target="_blank" rel="noreferrer">
+					<span>here</span>.
+				</a>
+			</Tooltip>
+
 		</p>
 	</div>
 </section>

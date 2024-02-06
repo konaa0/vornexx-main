@@ -39,7 +39,7 @@
 				</a>
 			</Tooltip>
 			, aside from this I also upload random .mp4 files now and then
-			<Tooltip tip="🎵">
+			<Tooltip tip="📽️">
 				<a href="https://cdn-vornexx.vercel.app" target="_blank" rel="noreferrer">
 					<span>here</span>
 				</a>

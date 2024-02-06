@@ -41,9 +41,10 @@
 			, aside from this I also upload random .mp4 files now and then
 			<Tooltip tip="🎵">
 				<a href="https://cdn-vornexx.vercel.app" target="_blank" rel="noreferrer">
-					<span>here</span> .
+					<span>here</span>
 				</a>
 			</Tooltip>
+			.
 
 		</p>
 	</div>

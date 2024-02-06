@@ -32,7 +32,12 @@
 					<span>open-source</span>
 				</a>
 			</Tooltip>
-			, that's all for now.
+			, if you wanna check out my unorganized spotify playlist click here
+			<Tooltip tip="🎵">
+				<a href="https://spotify.vornexx.is-a.dev" target="_blank" rel="noreferrer">
+					<span>click here</span>
+				</a>
+			</Tooltip>
 		</p>
 	</div>
 </section>

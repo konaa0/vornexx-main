@@ -38,10 +38,10 @@
 					<span>click here</span>
 				</a>
 			</Tooltip>
-			, aside from this I use a Dell Inspiron 3583
+			, aside from this I use a 
 			<Tooltip tip="💻">
 				<a href="https://valid.x86.fr/y10l2a" target="_blank" rel="noreferrer">
-					<span>View Spec sheet here</span>
+					<span>Dell Inspiron 3583</span>
 				</a>
 			</Tooltip>
 			and I also use a 
@@ -50,9 +50,10 @@
 					<span>Samsung Galaxy A54 5G</span>
 				</a>
 			</Tooltip>
+			If you care to watch, I monthly shitpost on this 
 			<Tooltip tip="📽️">
 				<a href="https://cdn-vornexx.vercel.app" target="_blank" rel="noreferrer">
-					<span>here</span>
+					<span>.mp4 dump site</span>
 				</a>
 			</Tooltip>
 			,

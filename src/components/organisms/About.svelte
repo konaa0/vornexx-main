@@ -57,7 +57,7 @@
 				</a>
 			</Tooltip>
 		    . I also have a Rentry .md page you can view
-		    <Tooltip tip="📽️">
+		    <Tooltip tip="✍️">
 			<a href="https://rentry.co/vornexx" target="_blank" rel="noreferrer">
 				<span>here</span>
 			</a>

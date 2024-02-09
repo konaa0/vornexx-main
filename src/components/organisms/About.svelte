@@ -32,13 +32,7 @@
 					<span>open-source</span>
 				</a>
 			</Tooltip>
-			, if you wanna check out my unorganized spotify playlist
-			<Tooltip tip="🎵">
-				<a href="https://spotify.vornexx.is-a.dev" target="_blank" rel="noreferrer">
-					<span>click here</span>
-				</a>
-			</Tooltip>
-			, aside from this I use a 
+		    , aside from this I use a 
 			<Tooltip tip="💻">
 				<a href="https://valid.x86.fr/y10l2a" target="_blank" rel="noreferrer">
 					<span>Dell Inspiron 3583</span>
@@ -48,6 +42,12 @@
 			<Tooltip tip="📞">
 				<a href="https://www.gsmarena.com/samsung_galaxy_a54-12070.php" target="_blank" rel="noreferrer">
 					<span>Samsung Galaxy A54 5G</span>
+				</a>
+			</Tooltip>
+			, if you wanna check out my unorganized spotify playlist
+			<Tooltip tip="🎵">
+				<a href="https://spotify.vornexx.is-a.dev" target="_blank" rel="noreferrer">
+					<span>click here</span>
 				</a>
 			</Tooltip>
 			. If you care to watch, I monthly shitpost on this 

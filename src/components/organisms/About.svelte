@@ -50,13 +50,12 @@
 					<span>Samsung Galaxy A54 5G</span>
 				</a>
 			</Tooltip>
-			If you care to watch, I monthly shitpost on this 
+			. If you care to watch, I monthly shitpost on this 
 			<Tooltip tip="📽️">
 				<a href="https://cdn-vornexx.vercel.app" target="_blank" rel="noreferrer">
 					<span>.mp4 dump site</span>
 				</a>
 			</Tooltip>
-			,
 			
 
 		</p>

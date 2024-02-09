@@ -38,13 +38,25 @@
 					<span>click here</span>
 				</a>
 			</Tooltip>
-			, aside from this I also upload random .mp4 files now and then
+			, aside from this I use a Dell Inspiron 3583
+			<Tooltip tip="💻">
+				<a href="https://valid.x86.fr/y10l2a" target="_blank" rel="noreferrer">
+					<span>View Spec sheet here</span>
+				</a>
+			</Tooltip>
+			and I also use a 
+			<Tooltip tip="📞">
+				<a href="https://www.gsmarena.com/samsung_galaxy_a54-12070.php" target="_blank" rel="noreferrer">
+					<span>Samsung Galaxy A54 5G</span>
+				</a>
+			</Tooltip>
 			<Tooltip tip="📽️">
 				<a href="https://cdn-vornexx.vercel.app" target="_blank" rel="noreferrer">
 					<span>here</span>
 				</a>
 			</Tooltip>
-			.
+			,
+			
 
 		</p>
 	</div>

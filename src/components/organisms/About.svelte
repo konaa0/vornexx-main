@@ -44,14 +44,13 @@
 					<span>Dell Inspiron 3583</span>
 				</a>
 			</Tooltip>
-			and I also use a 
+			as a main computer and I also use a 
 			<Tooltip tip="📞">
 				<a href="https://www.gsmarena.com/samsung_galaxy_a54-12070.php" target="_blank" rel="noreferrer">
 					<span>Samsung Galaxy A54 5G</span>
 				</a>
 			</Tooltip>
-			
-			. If you care to watch, I monthly shitpost on this 
+			as a main phone that runs pretty well for a budget phone, basically a flagship from 2020/2021. If you care to watch, I monthly shitpost on this 
 			<Tooltip tip="📽️">
 				<a href="https://cdn-vornexx.vercel.app" target="_blank" rel="noreferrer">
 					<span>.mp4 dump site</span>

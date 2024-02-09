@@ -56,7 +56,7 @@
 					<span>.mp4 dump site</span>
 				</a>
 			</Tooltip>
-		    I also have a Rentry .md page you can view
+		    . I also have a Rentry .md page you can view
 		    <Tooltip tip="📽️">
 			<a href="https://rentry.co/vornexx" target="_blank" rel="noreferrer">
 				<span>here</span>

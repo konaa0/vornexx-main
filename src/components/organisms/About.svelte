@@ -56,12 +56,18 @@
 					<span>.mp4 dump site</span>
 				</a>
 			</Tooltip>
-		    . I also have a Rentry .md page you can view
+		    . I have a Rentry .md page you can view
 		    <Tooltip tip="✍️">
 			<a href="https://rentry.co/vornexx" target="_blank" rel="noreferrer">
 				<span>here</span>
 			</a>
 		    </Tooltip>
+			And lastly I have a guestbook where you are free to type whatever you want, whenever you want whether it be anonymous or not
+		    <Tooltip tip="📝">
+			<a href="https://vornexx.123guestbook.com/" target="_blank" rel="noreferrer">
+				<span>here</span>
+			</a>
+			</Tooltip>
 			.
 			
 

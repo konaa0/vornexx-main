@@ -45,6 +45,6 @@
 <style>
 	.socials-container {
 		display: flex;
-		gap: 0.65rem;
+		gap: 0.45rem;
 	}
 </style>

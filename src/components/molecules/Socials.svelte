@@ -7,7 +7,7 @@
 	import { MailIcon } from '@indaco/svelte-iconoir/mail';
 	import { CubeHoleIcon } from '@indaco/svelte-iconoir/cube-hole';
 	import { FingerprintIcon } from '@indaco/svelte-iconoir/fingerprint';
-	import { TwitterIcon } from '@indaco/svelte-iconoir/twitter';
+	import { XIcon } from '@indaco/svelte-iconoir/x';
 	import { SpotifyIcon } from '@indaco/svelte-iconoir/spotify';
 	import { InstagramIcon } from '@indaco/svelte-iconoir/instagram';
 </script>
@@ -30,7 +30,7 @@
 	</Social>
 
 	<Social tip="twitter/x profile" link="https://twitter.com/vornexx_">
-		<TwitterIcon color="var(--accent)" />
+		<XIcon color="var(--accent)" />
 	</Social>
 
 	<Social tip="instagram profile" link="https://instagram.com/vornexig">

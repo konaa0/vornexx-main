@@ -5,7 +5,11 @@
 	import { GitHubIcon } from '@indaco/svelte-iconoir/github';
 	import { DiscordIcon } from '@indaco/svelte-iconoir/discord';
 	import { MailIcon } from '@indaco/svelte-iconoir/mail';
-	import { CoffeeCupIcon } from '@indaco/svelte-iconoir/coffee-cup';
+	import { CubeHoleIcon } from '@indaco/svelte-iconoir/cube-hole';
+	import { FingerprintIcon } from '@indaco/svelte-iconoir/fingerprint';
+	import { TwitterIcon } from '@indaco/svelte-iconoir/twitter';
+	import { SpotifyIcon } from '@indaco/svelte-iconoir/spotify';
+	import { InstagramIcon } from '@indaco/svelte-iconoir/instagram';
 </script>
 
 <div class="socials-container">
@@ -17,13 +21,30 @@
 		<DiscordIcon color="var(--accent)" />
 	</Social>
 
+	<Social tip="roblox profile" link="https://www.roblox.com/users/1016710675">
+		<CubeHoleIcon color="var(--accent)" />
+	</Social>
+
+	<Social tip="spotify profile" link="https://open.spotify.com/user/bj9xmj4pmlqa86zym011zb1eb">
+		<SpotifyIcon color="var(--accent)" />
+	</Social>
+
+	<Social tip="twitter/x profile" link="https://twitter.com/vornexx_">
+		<TwitterIcon color="var(--accent)" />
+	</Social>
+
+	<Social tip="instagram profile" link="https://instagram.com/vornexig">
+		<InstagramIcon color="var(--accent)" />
+	</Social>
+
+	<Social tip="guns.lol profile" link="https://guns.lol/vornexx">
+		<FingerprintIcon color="var(--accent)" />
+	</Social>
+
 	<Social tip="ajay.ramnath@courvix.com" link="mailto:ajay.ramnath@courvix.com">
 		<MailIcon color="var(--accent)" />
 	</Social>
 
-	<Social tip="Roblox profile" link="https://www.roblox.com/users/1016710675">
-		<CoffeeCupIcon color="var(--accent)" />
-	</Social>
 </div>
 
 <style>

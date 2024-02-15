@@ -6,7 +6,6 @@
 	import { DiscordIcon } from '@indaco/svelte-iconoir/discord';
 	import { MailIcon } from '@indaco/svelte-iconoir/mail';
 	import { CubeHoleIcon } from '@indaco/svelte-iconoir/cube-hole';
-	import { FingerprintIcon } from '@indaco/svelte-iconoir/fingerprint';
 	import { XIcon } from '@indaco/svelte-iconoir/x';
 	import { SpotifyIcon } from '@indaco/svelte-iconoir/spotify';
 	import { InstagramIcon } from '@indaco/svelte-iconoir/instagram';
@@ -37,10 +36,6 @@
 		<InstagramIcon color="var(--accent)" />
 	</Social>
 
-	<Social tip="guns.lol profile" link="https://guns.lol/vornexx">
-		<FingerprintIcon color="var(--accent)" />
-	</Social>
-
 	<Social tip="ajay.ramnath@courvix.com" link="mailto:ajay.ramnath@courvix.com">
 		<MailIcon color="var(--accent)" />
 	</Social>
@@ -50,6 +45,6 @@
 <style>
 	.socials-container {
 		display: flex;
-		gap: 0.00rem;
+		gap: 0.65rem;
 	}
 </style>

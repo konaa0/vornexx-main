@@ -56,9 +56,9 @@
 					<span>.mp4 dump site</span>
 				</a>
 			</Tooltip>
-		    . I have a Rentry .md page you can view
+		    . I have a blog page you can view
 		    <Tooltip tip="✍️">
-			<a href="https://rentry.co/vornexx" target="_blank" rel="noreferrer">
+			<a href="https://blog.vornexx.is-a.dev" target="_blank" rel="noreferrer">
 				<span>here</span>
 			</a>
 		    </Tooltip>

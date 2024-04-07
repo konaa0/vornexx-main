@@ -32,7 +32,7 @@
 		<XIcon color="var(--accent)" />
 	</Social>
 
-	<Social tip="instagram profile" link="https://instagram.com/vornexig">
+	<Social tip="instagram profile" link="https://instagram.com/vornexx_">
 		<InstagramIcon color="var(--accent)" />
 	</Social>
 

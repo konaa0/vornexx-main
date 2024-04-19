@@ -9,7 +9,7 @@
 	let repos: Repo[];
 
 	onMount(async () => {
-		const response = await fetch('https://gh-pinned-repos-tsj7ta5xfhep.deno.dev/?username=vornex-gh');
+		const response = await fetch('https://gh-pinned-repos-tsj7ta5xfhep.deno.dev/?username=vornexx');
 		let unpatched = await response.json();
 		// patch repo owners having a slash at the end of them
 		for (let i = 0; i < unpatched.length; i++) {

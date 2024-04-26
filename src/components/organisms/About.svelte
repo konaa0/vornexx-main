@@ -23,40 +23,22 @@
 	<div class="text">
 		<h2>bio</h2>
 		<p>
-			Hey there, I'm vornexx! 💖 I'm a <Tooltip tip={age}
+			Hey there, I'm vornexx! I'm a <Tooltip tip={age}
 				><span>{Math.floor(Number(age))}</span></Tooltip
 			>
-			year old that is learning tech as I go, I usually use HTML and CSS, but I'm always open to learn about anything. Thanks to <span>afn.im</span> I learnt about <span>Svelte</span>. This website is also
-			<Tooltip tip="💝">
-				<a href="https://github.com/xafn/afn.im" target="_blank" rel="noreferrer">
-					<span>open-source</span>
-				</a>
-			</Tooltip>
-			, if you wanna check out my unorganized spotify playlist
+			year old that is learning tech as I go, I usually use HTML and CSS, but I'm always open to learn about anything, if you wanna check out my unorganized spotify playlist
 			<Tooltip tip="🎵">
 				<a href="https://spotify.vornexx.is-a.dev" target="_blank" rel="noreferrer">
 					<span>click here</span>
 				</a>
 			</Tooltip>
-		    , aside from this I use a 
-			<Tooltip tip="💻">
-				<a href="https://valid.x86.fr/y10l2a" target="_blank" rel="noreferrer">
-					<span>Dell Inspiron 3583</span>
-				</a>
-			</Tooltip>
-			as a main computer and I also use a 
-			<Tooltip tip="📞">
-				<a href="https://www.gsmarena.com/samsung_galaxy_a54-12070.php" target="_blank" rel="noreferrer">
-					<span>Samsung Galaxy A54 5G</span>
-				</a>
-			</Tooltip>
-			as a main phone that runs pretty well for a budget phone, basically a flagship from 2020/2021. If you care to watch, I shitpost monthly(strong maybe) on this
+			. I have an .mp4 dump site if you wanna check out that "archive"
 			<Tooltip tip="📽️">
 				<a href="https://cdn-vornexx.vercel.app" target="_blank" rel="noreferrer">
 					<span>.mp4 dump site</span>
 				</a>
 			</Tooltip>
-		    . I have a blog page you can view
+		    . Aside from this, I have a blog page you can view aswell
 		    <Tooltip tip="✍️">
 			<a href="https://blog.vornexx.is-a.dev" target="_blank" rel="noreferrer">
 				<span>here</span>

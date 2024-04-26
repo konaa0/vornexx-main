@@ -7,7 +7,7 @@
 <footer class="wrapper">
 	<Socials />
 	<h6>
-		Forked from xafn's repo, check it out <button onclick="window.open('https://github.com/xafn', '_blank');">here</button>! &#60;3
+		Thanks for visiting! &#60;3
 		<Tooltip tip="you're here"><span>V1</span></Tooltip>
 
 	</h6>

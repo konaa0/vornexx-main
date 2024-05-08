@@ -12,7 +12,7 @@
 </script>
 
 <div class="socials-container">
-	<Social tip="vornex-gh" link="https://github.com/vornexx">
+	<Social tip="vornexx" link="https://github.com/vornexx">
 		<GitHubIcon color="var(--accent)" />
 	</Social>
 

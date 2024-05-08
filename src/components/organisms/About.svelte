@@ -34,7 +34,7 @@
 			</Tooltip>
 			. I have an .mp4 dump site if you wanna check out that "archive"
 			<Tooltip tip="📽️">
-				<a href="https://cdn-vornexx.vercel.app" target="_blank" rel="noreferrer">
+				<a href="https://cdnvnx.vercel.app" target="_blank" rel="noreferrer">
 					<span>.mp4 dump site</span>
 				</a>
 			</Tooltip>

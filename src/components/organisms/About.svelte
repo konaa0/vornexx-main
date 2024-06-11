@@ -43,15 +43,7 @@
 			<a href="https://blog.vornexx.is-a.dev" target="_blank" rel="noreferrer">
 				<span>here</span>
 			</a>
-		    </Tooltip>
-			. And lastly I have a
-		    <Tooltip tip="📝">
-			<a href="https://vornexx.123guestbook.com/" target="_blank" rel="noreferrer">
-				<span>guestbook</span>
-			</a>
-			</Tooltip>
-			where you are free to type whatever you want, whenever you want whether it be anonymous or not.
-			
+		    </Tooltip>	
 
 		</p>
 	</div>

@@ -36,7 +36,7 @@
 		<InstagramIcon color="var(--accent)" />
 	</Social>
 
-	<Social tip="ajay.ramnath@courvix.com" link="mailto:ajay.ramnath@courvix.com">
+	<Social tip="ajay.ramnath@courvix.com" link="mailto:vornexx@fsb.lol">
 		<MailIcon color="var(--accent)" />
 	</Social>
 

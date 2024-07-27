@@ -43,7 +43,8 @@
 			<a href="https://blog.vornexx.is-a.dev" target="_blank" rel="noreferrer">
 				<span>here</span>
 			</a>
-		    </Tooltip>	
+		    </Tooltip>
+                    .
 
 		</p>
 	</div>

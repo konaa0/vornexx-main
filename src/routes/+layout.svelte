@@ -1,80 +1,94 @@
 <script lang="ts">
-	import { onMount } from 'svelte';
-	import '../styles/global.scss';
-	import '../styles/fonts.scss';
-	import Cursor from '../components/atoms/Cursor.svelte';
+	import '../app.postcss';
 
-	let loading = true;
-	let playSFX: (() => void) | undefined;
+	import { onNavigate } from '$app/navigation';
 
-	onMount(() => {
-		// need to create our own audio context as the default Audio() pauses any music playing
-		let buffer: AudioBuffer;
-		const audioCtx = new window.AudioContext();
-		const request = new XMLHttpRequest();
-		request.open('GET', 'sounds/click.ogg', true);
-		request.responseType = 'arraybuffer';
-		request.onload = function () {
-			const audioData: ArrayBuffer = request.response;
-			audioCtx.decodeAudioData(audioData, function (decodedBuffer) {
-				buffer = decodedBuffer;
-				playSFX = () => {
-					const source = audioCtx.createBufferSource();
-					source.buffer = buffer;
-					source.connect(audioCtx.destination);
-					source.start(0);
-				};
+	import NavLink from './NavLink.svelte';
+	import BackgroundEffect from './BackgroundEffect.svelte';
+
+	function getBaseRoute(pathname: string | undefined) {
+		return pathname?.match(/\/[^/]*/)?.[0] ?? '/';
+	}
+
+	const order = ['/', '/projects', '/music'];
+
+	onNavigate(navigation => {
+		if (!document.startViewTransition) return;
+
+		const from = getBaseRoute(navigation.from?.url.pathname);
+		const to = getBaseRoute(navigation.to?.url.pathname);
+
+		const fromIndex = order.indexOf(from);
+		const toIndex = order.indexOf(to);
+
+		const direction = fromIndex < toIndex ? '-1' : '1';
+		document.documentElement.style.setProperty('--direction', direction);
+
+		return new Promise(resolve => {
+			document.startViewTransition(async () => {
+				resolve();
+				await navigation.complete;
 			});
-		};
-		request.send();
-
-		if (document.readyState === 'complete') {
-			loading = false;
-		}
-
-		const classes = document.querySelector('body')?.classList;
-		const stopResizeAnimation = () => {
-			let timer: any = 0;
-			window.addEventListener('resize', function () {
-				if (timer) {
-					clearTimeout(timer);
-					timer = null;
-				} else {
-					classes?.add('stop-transitions');
-				}
-
-				timer = setTimeout(() => {
-					classes?.remove('stop-transitions');
-					timer = null;
-				}, 100);
-			});
-		};
-
-		stopResizeAnimation();
+		});
 	});
 </script>
 
-<svelte:head>
-	<meta charset="UTF-8" />
-	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-	<meta name="og:title" content="vornexx.is-a.dev" />
-	<meta content="/default.png" property="og:image" />
-	<meta property="og:description" content="the only website ever" />
-	<meta name="twitter:image" itemprop="image" content="/default.png" />
-	<meta name="twitter:card" content="summary" />
-	<meta name="theme-color" content="#CCE2F2" />
-	<title>vornexx</title>
-</svelte:head>
+<BackgroundEffect />
 
-<svelte:window on:click={playSFX} />
+<nav class="wrapper mt-20 md:mt-32 text-gray-400">
+	<ul class="flex flex-wrap gap-x-12 gap-y-2">
+		<NavLink href="/">Home</NavLink>
+		<NavLink href="/projects">Projects</NavLink>
+		<NavLink href="/music">Music</NavLink>
+	</ul>
+</nav>
 
-<Cursor />
-<span class:loading>
+<div class="mt-16 md:mt-20 mb-20 md:mb-32">
 	<slot />
-</span>
+</div>
 
 <style>
-	.loading * {
-		transition: none;
+	@keyframes fade-in {
+		from {
+			opacity: 0;
+		}
+	}
+
+	@keyframes fade-out {
+		to {
+			opacity: 0;
+		}
+	}
+
+	@keyframes slide-in {
+		from {
+			transform: translateX(calc(-1 * theme(width.8) * var(--direction)));
+		}
+	}
+
+	@keyframes slide-out {
+		to {
+			transform: translateX(calc(theme(width.8) * var(--direction)));
+		}
+	}
+
+	:root::view-transition-old(content) {
+		animation:
+			90ms cubic-bezier(0.4, 0, 1, 1) both fade-out,
+			300ms cubic-bezier(0.4, 0, 0.2, 1) both slide-out;
+	}
+
+	:root::view-transition-new(content) {
+		animation:
+			210ms cubic-bezier(0, 0, 0.2, 1) 90ms both fade-in,
+			300ms cubic-bezier(0.4, 0, 0.2, 1) both slide-in;
+	}
+
+	nav {
+		view-transition-name: nav;
+	}
+
+	div {
+		view-transition-name: content;
 	}
 </style>

@@ -1,0 +1,95 @@
+@import 'tailwindcss/base';
+@import 'fonts.postcss';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+@layer base {
+	html {
+		@apply bg-gray-950 text-white;
+
+		color-scheme: dark;
+	}
+
+	html {
+		@apply overflow-x-hidden overflow-y-scroll;
+
+		-webkit-tap-highlight-color: transparent;
+		scrollbar-color: theme('colors.gray.800') #000;
+		scrollbar-width: thin;
+	}
+
+	*:focus-visible {
+		outline: 2px solid white;
+		outline-offset: 4px;
+	}
+
+	::-webkit-scrollbar {
+		width: 0.5rem;
+		height: 0.5rem;
+	}
+	::-webkit-scrollbar-track {
+		background: #000;
+	}
+	::-webkit-scrollbar-thumb {
+		background: theme('colors.gray.800');
+	}
+	::-webkit-scrollbar-button {
+		display: none;
+	}
+	::-webkit-scrollbar-corner {
+		display: none;
+	}
+	::-webkit-scrollbar-thumb:active {
+		background: theme('colors.gray.700');
+	}
+}
+
+@layer components {
+	.wrapper {
+		@apply mx-auto max-w-screen-md px-8;
+	}
+
+	.header {
+		@apply text-5xl lg:text-6xl font-black;
+	}
+
+	.fade > *,
+	nav {
+		animation-name: fade-in;
+		animation-duration: 800ms;
+		animation-fill-mode: backwards;
+		animation-timing-function: cubic-bezier(0.37, 0.69, 0.39, 0.99);
+	}
+
+	nav {
+		animation-delay: 1500ms;
+	}
+
+	.fade-delay {
+		--fade-delay: 100ms;
+	}
+
+	@each $i in 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18,
+		19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36,
+		37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50 {
+		.fade > *:nth-child($(i)) {
+			animation-delay: calc($(i) * 70ms + var(--fade-delay, 0ms));
+		}
+	}
+
+	@keyframes fade-in {
+		from {
+			opacity: 0;
+			transform: translateY(1rem);
+		}
+	}
+}
+
+@layer utilities {
+	.no-scrollbar {
+		scrollbar-width: none;
+	}
+	.no-scrollbar::-webkit-scrollbar {
+		display: none;
+	}
+}

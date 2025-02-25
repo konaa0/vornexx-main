@@ -78,6 +78,7 @@
 	const mousePressed = spring(0);
 
 	function draw() {
+		// Clear the canvas but the black background comes from CSS
 		ctx.clearRect(0, 0, width, height);
 
 		for (const boid of boids) {
@@ -227,7 +228,7 @@
 <div aria-hidden="true" class="h-[100lvh] fixed" bind:this={refDiv}></div>
 
 <canvas
-	class="w-screen h-screen fixed -z-10 top-0 left-0 bg-transparent pointer-events-none"
+	class="w-screen h-screen fixed -z-10 top-0 left-0 bg-black pointer-events-none"
 	bind:this={canvas}
 ></canvas>
 

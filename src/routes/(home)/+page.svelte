@@ -40,7 +40,7 @@
 			<Spotify />
 		</SocialLink>
 
-		<SocialLink href="mailto:vornexx@outlook.com" name="Email">
+		<SocialLink href="mailto:vornexx@disroot.org" name="Email">
 			<Envelope />
 		</SocialLink>
 	</div>

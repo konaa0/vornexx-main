@@ -1,4 +1,4 @@
-# vnx.pages.dev
+# vornexx.is-a.dev
 
 * Remember variables
 * `NODE_VERSION= 20`

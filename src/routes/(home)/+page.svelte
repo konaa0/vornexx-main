@@ -11,15 +11,15 @@
 	import Meta from '$lib/components/Meta.svelte';
 </script>
 
-<Meta title="vornexx" description="My portfolio and personal website." />
+<Meta title="kona" description="My portfolio and personal website." />
 
 <main class="wrapper fade">
-	<h1 class="header">vornexx</h1>
+	<h1 class="header">kona</h1>
 
 	<p class="mt-4 text-gray-400">
-		I'm <b>vornexx.</b>, a person from
+		I'm <b>kona.</b>, a person from
 		<b>Trinidad & Tobago (Trinidad)</b>.
-		In my free time I play Genshin Impact or Roblox or watch shows or movies.
+		In my free time I play Genshin Impact or Roblox and watch anime(sometimes).
 	</p>
 
 	<div class="mt-4 flex gap-6">
@@ -34,13 +34,13 @@
 
 	
 		<SocialLink
-			href="https://spotify.vornexx.is-a.dev"
+			href="https://open.spotify.com/user/bj9xmj4pmlqa86zym011zb1eb"
 			name="Spotify"
 		>
 			<Spotify />
 		</SocialLink>
 
-		<SocialLink href="mailto:vornexx@disroot.org" name="Email">
+		<SocialLink href="mailto:kona@disroot.org" name="Email">
 			<Envelope />
 		</SocialLink>
 	</div>

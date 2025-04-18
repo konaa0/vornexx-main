@@ -28,7 +28,7 @@
 		</SocialLink>
 
 		
-		<SocialLink href="https://github.com/vornexx" name="GitHub">
+		<SocialLink href="https://github.com/konaa0" name="GitHub">
 			<GitHub />
 		</SocialLink>
 

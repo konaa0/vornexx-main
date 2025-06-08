@@ -13,7 +13,7 @@
 	<Project
 		name="vnx.pages.dev"
 		href="https://vnx.pages.dev"
-		src="/images/projects/brave_JDsQ9aBzkQ.png"
+		src=""
 	>
 		The page you're currently on.
 	</Project>

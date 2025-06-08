@@ -41,7 +41,7 @@
 </script>
 
 <Meta
-	title="Music – vornexx"
+	title="Music – kona"
 	description="Tracks I've listened to the most on Spotify."
 />
 
